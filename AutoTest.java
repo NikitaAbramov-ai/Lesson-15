@@ -12,7 +12,7 @@ public class MtsOnlinePaymentTest {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Работа\\chromedriver-win64");
+        System.setProperty("webdriver.chrome.driver", "C:\\Работа\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.mts.by");
     }
